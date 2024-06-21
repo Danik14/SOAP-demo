@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: countries-demo
+  datasource:
+    url: jdbc:postgresql://localhost:5432/countries
+    username: web
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: false
+      database: countries
+      database-platform: org.hibernate.dialect.PostgreSQLDialect

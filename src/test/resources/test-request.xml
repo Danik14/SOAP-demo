@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://github.com/Danik14/soap-demo">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getCountryRequest>
+            <gs:name>Kazakhstan</gs:name>
+        </gs:getCountryRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
